@@ -1,0 +1,1 @@
+print(4*2) #Sonni 2 ga ko‘paytirish
