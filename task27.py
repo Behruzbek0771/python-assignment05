@@ -1,10 +1,14 @@
-pul=385 #>> 100 ga kamaytrdam xisob kitob uchun
-a=pul%10 #5*100 lik qator
-pul=pul//10 #38
+pul=38500
+unlik=pul//10_000
+pul=pul%10_000
 
-b=pul%10 #8*1000 lik qator
-pul=pul//10 #3
+beshlik=pul//5_000
+pul=pul%5_000
 
-c=pul%10 #3*10000 lik qator
-pul=pul//10 #0
-print(a,b,c) #Pulni to‘lov birliklariga ajratish
+ikkilik=pul//2_000
+pul=pul%2_000
+
+beshyuzlik=pul//500
+pul=pul%500
+
+print(unlik,beshlik,ikkilik,beshyuzlik) #to'g'riladim kamchilik bor edi
